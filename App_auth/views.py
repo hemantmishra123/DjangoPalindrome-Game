@@ -1,8 +1,8 @@
 from django.shortcuts import render, HttpResponseRedirect, reverse
 from django.contrib.auth.models import User
 from django.contrib.auth import authenticate, login, logout
-from .Calander_Api import test_calendar
-from.cal_Api import build_services
+#from .Calander_Api import test_calendar
+#from.cal_Api import build_services
 from rest_framework.authentication import TokenAuthentication
 from django.http import HttpResponse
 from rest_framework.authtoken.models import Token
